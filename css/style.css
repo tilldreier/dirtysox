@@ -82,3 +82,8 @@ h6 {
 .dropdown-content li a {
 	color: #898989;
 }
+
+#slider-header {
+	max-height: 450px;
+	max-width: 980px;
+}
