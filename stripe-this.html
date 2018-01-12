@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>DirtySox - Cart</title>
+  <title>DirtySox - Strip This</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -16,12 +16,12 @@
     <nav class="white lighten-1" role="navigation">
       <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">dirtySox</a>
         <ul class="right">
-          <li><a href="#"><i class="material-icons">shopping_cart</i></a>
+          <li><a href="shopping-cart.html"><i class="material-icons">shopping_cart</i></a>
         </ul>
         <ul class="right hide-on-med-and-down">
-          <li><a href="all-products.html">Shop</a></li>
+          <li class="active"><a href="all-products.html#">Shop</a></li>
           <li><a href="#">Custom</a></li>
-          <li><a href="#">Händler</a></li>
+          <li><a href="#">Hänlder</a></li>
           <li><a href="#">Kontakt</a></li>
         </ul>
         <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
@@ -30,44 +30,55 @@
   </div>
 
   <ul id="nav-mobile" class="side-nav">
-    <li><a href="all-products.html">Shop</a></li>
+    <li class="active"><a href="all-products.html">Shop</a></li>
     <li><a href="#">Custom</a></li>
-    <li><a href="#">Händler</a></li>
+    <li><a href="#">Hänlder</a></li>
     <li><a href="#">Kontakt</a></li>
   </ul>
-
-  <div id="index-banner">
-    <div class="row center">
-      <img class="responsive-img" src="media/kollektion_strip-this_banner_0317-980x450.jpg" alt="Banner Strip This Socken">
-    </div>
-    <br><br>
-  </div>
-
+        
+      
 
   <div class="container">
     <div class="section">
 
       <!--   Product Section   -->
-      <div class="row">
-        <div class="col l6 m6 s12">
-          <a href="like-a-boss.html">
-            <img class="responsive-img" src="https://www.dirtysox.ch/image/cache/data/dirtysox-v2/like_a_boss-750x680.png">
-            <h5>like a boss</h5>
-            <h4>CHF 15.90</h4>
-          </a>
+      <div class="row" id="product">
+        <div class="col s12 l6">
+          <div class="col s12">
+            <img id="productImgBig" class="responsive-img materialboxed" src="https://www.dirtysox.ch/image/cache/data/dirtysox-v2/weiss_seite-750x680.jpg">
+          </div>
+          <div class="col s6">
+            <img class="responsive-img productImgSmall" src="https://www.dirtysox.ch/image/cache/data/dirtysox-v2/weiss_vorne-750x680.jpg">
+          </div>
+          <div class="col s6">
+            <img class="responsive-img productImgSmall" src="https://www.dirtysox.ch/image/cache/data/dirtysox-v2/weiss-hinten-750x680.jpg">
+          </div>
         </div>
-
-        <div class="col l6 m6 s12">
-          <a href="black-arrow.html">
-            <img class="responsive-img" src="https://www.dirtysox.ch/image/cache/data/blackarrow/pink_seite-750x680.png">
-            <h5>black arrow</h5>
-            <h4>CHF 15.90</h4>
-          </a>
+        <div class="col s12 l6">
+          <h5>stripe this</h5>
+          <h4>CHF 15.90</h4>
+          <h6><b>Farbe</b> Weiss / Schwarz / Neon Pink</br>
+            <b>Linie</b> Original's</br>
+            <b>Marke</b> dirtySox</br></br>
+            <b>Material</b></br>
+            64% Nylon-Microlon</br>
+            12% Polypropylen</br>
+            24% Elastan</br>
+          </h6>
+          <p>DirtySox steht gleichermassen für Style und Qualität. Das verwendete Nylon-Microlon zeichnet sich durch den angenehmen Komfort, seine Widerstandsfähigkeit und einfache Pflege aus. Unser Ziel ist es die besten Socken für Ihre Füsse wie auch Ihre Augen zu machen. Wir setzen beim gesamten Prozess auf Made in Europe!</p>
         </div>
       </div>
-
       <div class="row center">
-        <a href="all-products.html" id="gradient-button" class="btn-large">Checkout</a>
+        <a href="#" id="size-button" class="dropdown-button btn-large" data-activates="size"><i class="material-icons right">arrow_drop_down</i>Grösse wählen</a>
+        <ul id="size" class="dropdown-content">
+          <li><a href="#">S (36 - 39.5)</a></li>
+          <li><a href="#">M (40 - 42.5)</a></li>
+          <li><a href="#">L (43 - 45.5)</a></li>
+          <li><a href="#">XL (46+)</a></li>
+        </ul>
+      </div>
+      <div class="row center">
+        <a href="#" onclick="Materialize.toast('Dem Warenkorb hinzugefügt!', 4000)" id="gradient-button" class="btn-large">in den Warenkorb</a>
       </div>
 
     </div>
