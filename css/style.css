@@ -14,6 +14,10 @@ p {
     font-size: 16px;
 }
 
+a {
+    color: grey;
+}
+
 h3 {
     color: #9013FE;
     font-size: 26px;
@@ -39,15 +43,13 @@ h6 {
     font-size: 12px;
 }
 
-
-
-a {
-    color: white;
-}
-
 nav ul a {
     color: black;
 }
+
+.x-clear {
+        cursor: pointer;
+    }
 
 .icon-block {
     padding: 0 15px;

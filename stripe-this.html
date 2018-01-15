@@ -45,18 +45,40 @@
           <div class="col s12">
             <img id="productImgBig" class="responsive-img materialboxed" src="https://www.dirtysox.ch/image/cache/data/dirtysox-v2/weiss_seite-750x680.jpg">
           </div>
-          <div class="col s6">
-            <img class="responsive-img productImgSmall" src="https://www.dirtysox.ch/image/cache/data/dirtysox-v2/weiss_vorne-750x680.jpg">
-          </div>
-          <div class="col s6">
-            <img class="responsive-img productImgSmall" src="https://www.dirtysox.ch/image/cache/data/dirtysox-v2/weiss-hinten-750x680.jpg">
+          <div class="hide-on-small-only">
+            <div class="col s6">
+              <img class="responsive-img productImgSmall" src="https://www.dirtysox.ch/image/cache/data/dirtysox-v2/weiss_vorne-750x680.jpg">
+            </div>
+            <div class="col s6">
+              <img class="responsive-img productImgSmall" src="https://www.dirtysox.ch/image/cache/data/dirtysox-v2/weiss-hinten-750x680.jpg">
+            </div>
           </div>
         </div>
         <div class="col s12 m6">
           <h5>stripe this</h5>
-          <h4>CHF 15.90</h4>
+          <h4>CHF 15.90</h4> <br/>
+          <div class="hide-on-med-and-up">
+            <div class="row center">
+              <a href="#" id="size-button" class="dropdown-button btn-large" data-activates="size"><i class="material-icons right">arrow_drop_down</i>Grösse wählen</a>
+              <ul id="size" class="dropdown-content">
+                <li><a href="#">S (36 - 39.5)</a></li>
+                <li><a href="#">M (40 - 42.5)</a></li>
+                <li><a href="#">L (43 - 45.5)</a></li>
+                <li><a href="#">XL (46+)</a></li>
+              </ul>
+            </div>
+            <div class="row center">
+              <a href="#" onclick="Materialize.toast('Dem Warenkorb hinzugefügt!', 4000)" id="gradient-button" class="btn-large">in den Warenkorb</a>
+            </div>
+            <div class="col s6">
+              <img class="responsive-img productImgSmall" src="https://www.dirtysox.ch/image/cache/data/dirtysox-v2/weiss_vorne-750x680.jpg">
+            </div>
+            <div class="col s6">
+              <img class="responsive-img productImgSmall" src="https://www.dirtysox.ch/image/cache/data/dirtysox-v2/weiss-hinten-750x680.jpg">
+            </div>
+          </div>
           <p><b>Farbe</b> Weiss / Schwarz / Neon Pink</br>
-            <b>Linie</b> Original's</br>
+            <b>Linie</b> <a href="all-products.html#mini-original">Original's</a></br>
             <b>Marke</b> dirtySox</br></br>
             <b>Material</b></br>
             64% Nylon-Microlon</br>
@@ -66,17 +88,19 @@
           <p>DirtySox steht gleichermassen für Style und Qualität. Das verwendete Nylon-Microlon zeichnet sich durch den angenehmen Komfort, seine Widerstandsfähigkeit und einfache Pflege aus. Unser Ziel ist es die besten Socken für Ihre Füsse wie auch Ihre Augen zu machen. Wir setzen beim gesamten Prozess auf Made in Europe!</p>
         </div>
       </div>
-      <div class="row center">
-        <a href="#" id="size-button" class="dropdown-button btn-large" data-activates="size"><i class="material-icons right">arrow_drop_down</i>Grösse wählen</a>
-        <ul id="size" class="dropdown-content">
-          <li><a href="#">S (36 - 39.5)</a></li>
-          <li><a href="#">M (40 - 42.5)</a></li>
-          <li><a href="#">L (43 - 45.5)</a></li>
-          <li><a href="#">XL (46+)</a></li>
-        </ul>
-      </div>
-      <div class="row center">
-        <a href="#" onclick="Materialize.toast('Dem Warenkorb hinzugefügt!', 4000)" id="gradient-button" class="btn-large">in den Warenkorb</a>
+      <div class="hide-on-small-only">
+        <div class="row center">
+          <a href="#" id="size-button" class="dropdown-button btn-large" data-activates="size"><i class="material-icons right">arrow_drop_down</i>Grösse wählen</a>
+          <ul id="size" class="dropdown-content">
+            <li><a href="#">S (36 - 39.5)</a></li>
+            <li><a href="#">M (40 - 42.5)</a></li>
+            <li><a href="#">L (43 - 45.5)</a></li>
+            <li><a href="#">XL (46+)</a></li>
+          </ul>
+        </div>
+        <div class="row center">
+          <a href="#" onclick="Materialize.toast('Dem Warenkorb hinzugefügt!', 4000)" id="gradient-button" class="btn-large">in den Warenkorb</a>
+        </div>
       </div>
 
     </div>
