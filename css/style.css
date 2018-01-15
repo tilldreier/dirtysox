@@ -161,6 +161,17 @@ nav ul a {
     height: 1px;
 }
 
+@-moz-document url-prefix() {
+    .shopping-cart-table td.text-column {
+        height: 100%;
+    }
+
+    .shopping-cart-table td.button-column {
+        width: 110px;
+        height: 100%;
+    }
+}
+
 .shopping-cart-table .product-image {
     width: 100%;
 }
@@ -177,9 +188,10 @@ nav ul a {
 }
 
 .full-height {
+    height:100%;
+    width: 100%;
+    display:inline-table;
     position: relative;
-    height: 100%;
-    overflow: auto;
 }
 
 .table-bottom {
