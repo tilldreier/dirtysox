@@ -10,22 +10,30 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+h3 {
+    color: #9013FE;
+    font-size: 28px;
+    font-weight: bold;
+}
+
 h4 {
     color: #000000;
-    font-size: 36px;
+    font-size: 22px;      
     font-weight: bold;
 }
 
 h5 {
     color: #393939;
-    font-size: 24px;
+    font-size: 18px;
     text-transform: uppercase;
 }
 
 h6 {
     color: #393939;
-    font-size: 18px;
+    font-size: 14px;
 }
+
+
 
 a {
     color: white;
@@ -153,7 +161,7 @@ nav ul a {
     width: 40px;
     color: #000000;
     font-family: "Open Sans";
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
     line-height: 24px;
     text-align: center;
@@ -201,3 +209,154 @@ nav ul a {
     float: left;
 }
 
+@media only screen and (min-width: 601px) {
+
+    h3 {
+        color: #9013FE;
+        font-size: 38px;
+        font-weight: bold;
+    }
+
+    h4 {
+        color: #000000;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    h5 {
+        color: #393939;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
+    h6 {
+        color: #393939;
+        font-size: 14px;
+    }
+
+    .btn-floating-small i {
+        width: inherit;
+        display: inline-block;
+        text-align: center;
+        background: -webkit-linear-gradient(134.72deg, #3023AE 0%, #C86DD7 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 1.6rem;
+        line-height: 40px;
+    }
+
+    .btn-floating-small {
+        display: inline-block;
+        color: #fff;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        width: 40px;
+        height: 40px;
+        line-height: 20px;
+        padding: 0;
+        background-color: #D8D8D8;
+        border-radius: 50%;
+        -webkit-transition: .3s;
+        transition: .3s;
+        cursor: pointer;
+        vertical-align: middle;
+        float: left;
+    }
+
+    .shopping-cart-table td.button-column {
+        width: 150px;
+        height: 1px;
+    }
+
+    .shopping-cart-table .quantity {
+        width: 60px;
+        color: #000000;
+        font-family: "Open Sans";
+        font-size: 28px;
+        font-weight: bold;
+        line-height: 40px;
+        text-align: center;
+        float: left;
+    }
+
+    .x-clear {
+        font-size: 36px;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+
+    h3 {
+        color: #9013FE;
+        font-size: 46px;
+        font-weight: bold;
+    }
+
+    h4 {
+        color: #000000;
+        font-size: 36px;
+        font-weight: bold;
+    }
+
+    h5 {
+        color: #393939;
+        font-size: 24px;
+        text-transform: uppercase;
+    }
+
+    h6 {
+        color: #393939;
+        font-size: 18px;
+    }
+
+    .btn-floating-small i {
+        width: inherit;
+        display: inline-block;
+        text-align: center;
+        background: -webkit-linear-gradient(134.72deg, #3023AE 0%, #C86DD7 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 2.4rem;
+        line-height: 60px;
+    }
+
+    .btn-floating-small {
+        display: inline-block;
+        color: #fff;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        width: 60px;
+        height: 60px;
+        line-height: 20px;
+        padding: 0;
+        background-color: #D8D8D8;
+        border-radius: 50%;
+        -webkit-transition: .3s;
+        transition: .3s;
+        cursor: pointer;
+        vertical-align: middle;
+        float: left;
+    }
+
+    .shopping-cart-table td.button-column {
+        width: 210px;
+        height: 1px;
+    }
+
+    .shopping-cart-table .quantity {
+        width: 80px;
+        color: #000000;
+        font-family: "Open Sans";
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 60px;
+        text-align: center;
+        float: left;
+    }
+
+    .x-clear {
+        font-size: 50px;
+    }
+}
