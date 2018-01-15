@@ -77,7 +77,7 @@ nav ul a {
     border-radius: 3px;
 }
 
-#gradient-button {
+#gradient-button, #gradient-button-small {
     background: linear-gradient(134.72deg, #3023AE 0%, #E9468A 100%);
     border: 1px solid #979797;
 }

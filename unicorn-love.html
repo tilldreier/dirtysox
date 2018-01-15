@@ -1,134 +1,139 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>DirtySox - Unicorn & Love</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>DirtySox - Unicorn & Love</title>
 
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen"/>
 </head>
 <body>
-  <div class="navbar-fixed">
-    <nav class="white lighten-1" role="navigation">
-      <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">dirtySox</a>
-        <ul class="right">
-          <li><a href="shopping-cart.html"><i class="material-icons">shopping_cart</i></a>
-        </ul>
-        <ul class="right hide-on-med-and-down">
-          <li class="active"><a href="all-products.html">Shop</a></li>
-          <li><a href="#">Custom</a></li>
-          <li><a href="#">Händler</a></li>
-          <li><a href="#">Kontakt</a></li>
-        </ul>
-        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-      </div>
+<div class="navbar-fixed">
+    <nav class="white lighten-1">
+        <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">dirtySox</a>
+            <ul class="right">
+                <li><a href="shopping-cart.html"><i class="material-icons">shopping_cart</i></a>
+            </ul>
+            <ul class="right hide-on-med-and-down">
+                <li class="active"><a href="all-products.html">Shop</a></li>
+                <li><a href="#">Custom</a></li>
+                <li><a href="#">Händler</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        </div>
     </nav>
-  </div>
+</div>
 
-  <ul id="nav-mobile" class="side-nav">
+<ul id="nav-mobile" class="side-nav">
     <li class="active"><a href="all-products.html">Shop</a></li>
     <li><a href="#">Custom</a></li>
     <li><a href="#">Händler</a></li>
     <li><a href="#">Kontakt</a></li>
-  </ul>  
+</ul>
 
-  <div class="container">
+<div class="container">
     <div class="section">
 
-      <!--   Product Section   -->
-      <div class="row" id="product">
-        <div class="col s12 m6">
-          <img class="responsive-img materialboxed" src="https://www.dirtysox.ch/image/cache/data/dirtysox-v2/unicorn-750x680.jpg">
+        <!--   Product Section   -->
+        <div class="row" id="product">
+            <div class="col s12 m6">
+                <img class="responsive-img materialboxed"
+                     src="https://www.dirtysox.ch/image/cache/data/dirtysox-v2/unicorn-750x680.jpg" alt="Product Image">
+            </div>
+            <div class="col s12 m6">
+                <h5>unicorn & love</h5>
+                <h4>CHF 15.90</h4> <br/>
+                <div class="hide-on-med-and-up">
+                    <div class="row center">
+                        <a href="#" id="size-button-small" class="dropdown-button btn-large" data-activates="size"><i
+                                class="material-icons right">arrow_drop_down</i>Grösse wählen</a>
+                        <ul id="size-small" class="dropdown-content">
+                            <li><a href="#">S (36 - 39.5)</a></li>
+                            <li><a href="#">M (40 - 42.5)</a></li>
+                            <li><a href="#">L (43 - 45.5)</a></li>
+                            <li><a href="#">XL (46+)</a></li>
+                        </ul>
+                    </div>
+                    <div class="row center">
+                        <a href="#" onclick="Materialize.toast('Dem Warenkorb hinzugefügt!', 4000)" id="gradient-button-small"
+                           class="btn-large">in den Warenkorb</a>
+                    </div>
+                </div>
+                <p><b>Farbe</b> Pink<br/>
+                    <b>Linie</b> <a href="all-products.html#maxi">Maxi's</a><br/>
+                    <b>Marke</b> dirtySox<br/><br/>
+                    <b>Material</b><br/>
+                    64% Nylon-Microlon<br/>
+                    12% Polypropylen<br/>
+                    24% Elastan<br/>
+                </p>
+            </div>
         </div>
-        <div class="col s12 m6">
-          <h5>unicorn & love</h5>
-          <h4>CHF 15.90</h4> <br/>
-          <div class="hide-on-med-and-up">
+        <div class="hide-on-small-only">
             <div class="row center">
-              <a href="#" id="size-button" class="dropdown-button btn-large" data-activates="size"><i class="material-icons right">arrow_drop_down</i>Grösse wählen</a>
-              <ul id="size" class="dropdown-content">
-                <li><a href="#">S (36 - 39.5)</a></li>
-                <li><a href="#">M (40 - 42.5)</a></li>
-                <li><a href="#">L (43 - 45.5)</a></li>
-                <li><a href="#">XL (46+)</a></li>
-              </ul>
+                <a href="#" id="size-button" class="dropdown-button btn-large" data-activates="size"><i
+                        class="material-icons right">arrow_drop_down</i>Grösse wählen</a>
+                <ul id="size" class="dropdown-content">
+                    <li><a href="#">S (36 - 39.5)</a></li>
+                    <li><a href="#">M (40 - 42.5)</a></li>
+                    <li><a href="#">L (43 - 45.5)</a></li>
+                    <li><a href="#">XL (46+)</a></li>
+                </ul>
             </div>
             <div class="row center">
-             <a href="#" onclick="Materialize.toast('Dem Warenkorb hinzugefügt!', 4000)" id="gradient-button" class="btn-large">in den Warenkorb</a>
+                <a href="#" onclick="Materialize.toast('Dem Warenkorb hinzugefügt!', 4000)" id="gradient-button"
+                   class="btn-large">in den Warenkorb</a>
             </div>
-          </div>
-          <p><b>Farbe</b> Pink</br>
-            <b>Linie</b> <a href="all-products.html#maxi">Maxi's</a><br/>
-            <b>Marke</b> dirtySox</br></br>
-            <b>Material</b></br>
-            64% Nylon-Microlon</br>
-            12% Polypropylen</br>
-            24% Elastan</br>
-          </p>
         </div>
-      </div>
-      <div class="hide-on-small-only">
-        <div class="row center">
-          <a href="#" id="size-button" class="dropdown-button btn-large" data-activates="size"><i class="material-icons right">arrow_drop_down</i>Grösse wählen</a>
-          <ul id="size" class="dropdown-content">
-            <li><a href="#">S (36 - 39.5)</a></li>
-            <li><a href="#">M (40 - 42.5)</a></li>
-            <li><a href="#">L (43 - 45.5)</a></li>
-            <li><a href="#">XL (46+)</a></li>
-          </ul>
-        </div>
-        <div class="row center">
-          <a href="#" onclick="Materialize.toast('Dem Warenkorb hinzugefügt!', 4000)" id="gradient-button" class="btn-large">in den Warenkorb</a>
-        </div>
-      </div>
 
     </div>
     <br><br>
-  </div>
+</div>
 
-  <footer class="page-footer grey">
+<footer class="page-footer grey">
     <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">DirtySox</h5>
-          <p class="grey-text text-lighten-4">Haueten 1</br>
-            6265 Roggliswil</br>
-          <a href="tel:+41795868462">+41 79 586 84 62</a></p>
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">DirtySox</h5>
+                <p class="grey-text text-lighten-4">Haueten 1<br/>
+                    6265 Roggliswil<br/>
+                    <a href="tel:+41795868462">+41 79 586 84 62</a></p>
 
 
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text">Informationen</h5>
+                <ul>
+                    <li><a class="white-text" href="#!">Versandinformationen</a></li>
+                    <li><a class="white-text" href="#!">Impressum</a></li>
+                </ul>
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text">Kundenservice</h5>
+                <ul>
+                    <li><a class="white-text" href="#!">Kontakt</a></li>
+                    <li><a class="white-text" href="#!">Retouren</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Informationen</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Versandinformationen</a></li>
-            <li><a class="white-text" href="#!">Impressum</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Kundenservice</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Kontakt</a></li>
-            <li><a class="white-text" href="#!">Retouren</a></li>
-          </ul>
-        </div>
-      </div>
     </div>
     <div class="footer-copyright">
-      <div class="container">
-      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-      </div>
+        <div class="container">
+            Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+        </div>
     </div>
-  </footer>
+</footer>
 
 
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
 
-  </body>
+</body>
 </html>
