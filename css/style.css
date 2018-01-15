@@ -82,7 +82,7 @@ nav ul a {
     border: 1px solid #979797;
 }
 
-#size-button {
+#size-button, #size-button-small {
     color: #898989;
     background: transparent;
     border: 1px solid #979797;
