@@ -10,19 +10,13 @@
  	font-family: 'Open Sans', sans-serif;
  }
 
-h3 {
-	color: #9013FE;
-	font-size: 48px;
-	font-weight: bold;
-} 
-
-h4 {
+  h4 {
  	color: #000000;
  	font-size: 36px;
  	font-weight: bold;
  }
 
-h5 {
+ h5 {
  	color: #393939;
  	font-size: 24px;
  	text-transform: uppercase;
@@ -88,8 +82,4 @@ h6 {
 #slider-header {
 	max-height: 450px;
 	max-width: 980px;
-}
-
-.checkout-product {
-	border-bottom: 1px;
 }
